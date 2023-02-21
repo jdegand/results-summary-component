@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main>
+    <section class="result">
+      <h1 class="result__h1">Your Result</h1>
+      <p class="result__score"><span class="white-text result__score__number">76</span> of 100</p>
+      <h2 class="white-text bolder result__grade">Great</h2>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="summary">
+      <h1 class="summary__h1">Summary</h1>
+      <ul class="summary__ul">
+        <li class="summary__row summary__row__reaction flex">
+          <span class="summary__row__left summary__row__left__reaction flex">
+            <span class="summary__row__left__img__span">
+              <img src="./assets/images/icon-reaction.svg" alt="">
+            </span>
+            Reaction
+          </span>
+          <span class="summary__row__right">
+            <span class="bolder">80</span> / 100
+          </span>
+        </li>
+        <li class="summary__row summary__row__memory flex">
+          <span class="summary__row__left summary__row__left__memory flex">
+            <span class="summary__row__left__img__span">
+              <img src="./assets/images/icon-memory.svg" alt="">
+            </span>
+            Memory
+          </span>
+          <span class="summary__row__right">
+            <span class="bolder">92</span> / 100
+          </span>
+        </li>
+        <li class="summary__row summary__row__verbal flex">
+          <span class="summary__row__left summary__row__left__verbal flex">
+            <span class="summary__row__left__img__span">
+              <img src="./assets/images/icon-verbal.svg" alt="">
+            </span>
+            Verbal
+          </span>
+          <span class="summary__row__right">
+            <span class="bolder">61</span> / 100
+          </span>
+        </li>
+        <li class="summary__row summary__row__visual flex">
+          <span class="summary__row__left summary__row__left__visual flex">
+            <span class="summary__row__left__img__span">
+              <img src="./assets/images/icon-visual.svg" alt="">
+            </span>
+            Visual
+          </span>
+          <span class="summary__row__right">
+            <span class="bolder">72</span> / 100
+          </span>
+        </li>
+      </ul>
+      <button class="summary__button" type="button">Continue</button>
+    </section>
+  </main>
+</body>
+</html>
